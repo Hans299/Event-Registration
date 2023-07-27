@@ -64,6 +64,15 @@ html {
     height: 100px;
     border: 1px solid #112441;
   }
+  .detail-artikel{
+    width: 764px;
+    height: 380px;
+    margin-top: 732px;
+  }
+  .box{
+    width: 497px;
+    height:264px ;
+  }
   /* footer {
     background-color: #333;
     color: #fff;
