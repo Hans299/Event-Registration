@@ -59,7 +59,11 @@ html {
   li.custom{
     font-size:25px;
   }
-  
+  .box{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #112441;
+  }
   /* footer {
     background-color: #333;
     color: #fff;
