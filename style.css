@@ -36,7 +36,7 @@ html {
     align-items: center;
   }
   
-  section {
+  .container-judulEvent{
     margin-top: -36px;
     background-color: #112441;
   }
@@ -59,27 +59,10 @@ html {
   li.custom{
     font-size:25px;
   }
-  article{
-    margin-left: 208px;
-    margin-bottom:200px;
-    text-align: center;
-    width:764px;
-    height:380px;
-    padding: 10px;
-    color:#112441;
-    gap:10px;
-  }
-  .box-info{
-    width: 497px;
-    height: 264px;
-    background-color: #f0f0f0;
-    margin-left: 1247px;
-    margin-top:100px;
-    margin-bottom: auto;  }
   
-  footer {
+  /* footer {
     background-color: #333;
     color: #fff;
     padding: 1rem;
     text-align: center;
-  }
+  } */
