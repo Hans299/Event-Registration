@@ -59,7 +59,24 @@ ul {
 li.custom{
   font-size:25px;
 }
-article{
+
+.container{
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.col{
+  padding: 20px;
+}
+.col p{
+  margin-left: 208px;
+  margin-bottom:200px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+/* article{
   margin-left: 208px;
   margin-bottom:200px;
   text-align: center;
@@ -68,7 +85,7 @@ article{
   padding: 10px;
   color:#112441;
   gap:10px;
-}
+} */
 .box-info{
   width: 497px;
   height: 264px;
