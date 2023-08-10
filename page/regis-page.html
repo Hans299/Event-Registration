@@ -5,62 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="/asset/style.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- cdn fontawesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>registration</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
   <header class="w-100" style="background-color: #112441;">
-    <div class="object-fit-contain" style="margin-left: 152px; width: 206px; height: 97.27px;"> 
-      <img src="/asset/Logo.png" alt="logo" style="background-color: #112441;">
+    <div class="object-fit-contain" style="height: 97.27px;"> 
+      <img src="/asset/Logo.png" alt="logo" style="padding-left: 152px;">
     </div>
   </header>
   <main>
-    <section>
-       <div class="row mb-5 ms-5 shadow shadow-lg rounded-3">
-        <div class="col-6">
-          <img style="background-image: url(/asset/Vector.png);" src="/asset/Group.png" alt="">
+    <section class="">
+      <div class="row mb-5 ms-5 shadow shadow-lg rounded-3">
+        <div class="col px-0">
+          <img class="" style="border-bottom-left-radius: 8px;" src="/asset/regis-img.png" alt="">
         </div>
-        <div class="col-6">
-          <div class="row">
-            <div class="col-6">
-              <h1 style="justify-content: center; display: flex;">registration</h1>
+
+        <div class="col bg-white d-flex pt-4">
+          <form action="" method="post">
+
+            <div class="row">
+              <p class="" style="font-size: calc(16px + 1vw);">Registration</p>
             </div>
-          <div class="row">
-            <div class="col">
-              <div class="form-group">
-                <label for="name2">Nama Kedua</label>
-                <input type="text" class="form-control" id="name2" name="name2">
+  
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="name2">
+                    <i class="fa-solid fa-user"></i>
+                    Nama Kedua
+                  </label>
+                  <input type="text" placeholder="Isi Teks" class="form-control border-0 border-bottom border-2" id="name2" name="name2">
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label for="name2">
+                    <i class="fa-solid fa-envelope"></i>
+                    Nama Kedua
+                  </label>
+                  <input type="text" placeholder="Teks Kedua" class="form-control border-0 border-bottom border-2" id="name2" name="name2">
+                </div>
+              </div>
             </div>
-            <div class="col">
-              <div class="form-group">
-                <label for="name2">Nama Kedua</label>
-                <input type="text" class="form-control" id="name2" name="name2">
-            </div>
-            </div>
-            </div>
-          <div class="row">
-            <div class="col-3">
-              <div class="form-group">
-                <label for="name2">Nama Kedua</label>
-                <input type="text" class="form-control" id="name2" name="name2">
-            </div>
-            <div class="col-3">
-              <div class="form-group">
-                <label for="name2">Nama Kedua</label>
-                <input type="text" class="form-control" id="name2" name="name2">
-            </div>
-            </div>
-          </div>
-            </div>
-            </div>
+
+            <div class="row pt-3">
+              <div class="col">
+                <div class="form-group">
+                  <label for="name2">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    Tanggal
+                  </label>
+                  <input type="date" placeholder="Isi Teks" class="form-control border-0 border-bottom border-2" id="name2" name="name2">
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label for="name2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Location
+                  </label>
+                  <select class="form-select border-0 border-bottom border-2" aria-label="Default select example">
+                    <option style="background-color: #112441;" class="text-white" value="0" selected>Pilih Lokasi</option>
+                    <option style="background-color: #112441;" class="text-white" value="1">Australia</option>
+                    <option style="background-color: #112441;" class="text-white" value="2">Canada</option>
+                    <option style="background-color: #112441;" class="text-white" value="3">China</option>
+                    <option style="background-color: #112441;" class="text-white" value="4">Indonesia</option>
+                  </select>
+                </div>
+              </div>
             </div>
             
+            <div class="row py-3 mx-1">
+              <button type="submit" class="text-white rounded-2 border-0 p-1" style="background-color: #112441;">Submit</button>
             </div>
-          </div>
-        </div>       
+
+          </form>
         </div>
-          
-  </section>
+      </div>
+    </section>
   </main>
-  
+    
 </body>
 </html>
